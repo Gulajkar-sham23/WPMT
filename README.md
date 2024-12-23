@@ -5,8 +5,8 @@ Project: Website Performance Monitoring Tool
 Objective:
 Design a Python-based monitoring tool to track website uptime and response times using Prometheus.
 
-Steps to Configure:
-Step 1: Install Prometheus
+<h1>Steps to Configure:</h1>
+<h2>Step 1: Install Prometheus </h2>
 Download and Extract Prometheus:
 bash:
 wget https://github.com/prometheus/prometheus/releases/download/v2.47.0/prometheus-2.47.0.linux-amd64.tar.gz
@@ -58,9 +58,9 @@ scrape_configs:
 Start Prometheus:
 
 bash:
-
 ./prometheus --config.file=prometheus.yml
-Step 4: Visualize in Prometheus Dashboard
+
+<h2> Step 4: Visualize in Prometheus Dashboard</h2>h2>
 Access Prometheus Dashboard: http://localhost:9090.
 Query Metrics:
 website_up: Displays if the website is up (1) or down (0).
