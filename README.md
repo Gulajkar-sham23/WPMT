@@ -1,19 +1,23 @@
 # WPMT
-Website Performance Monitoring Tool
+<h1>Project: Website Performance Monitoring Tool</h1>
 
-Project: Website Performance Monitoring Tool
-Objective:
+<h3>Objective: </h3>
 Design a Python-based monitoring tool to track website uptime and response times using Prometheus.
 
 <h1>Steps to Configure:</h1>
+
 <h2>Step 1: Install Prometheus </h2>
+
 Download and Extract Prometheus:
+
 bash:
+
 wget https://github.com/prometheus/prometheus/releases/download/v2.47.0/prometheus-2.47.0.linux-amd64.tar.gz
 tar -xvzf prometheus-2.47.0.linux-amd64.tar.gz
 cd prometheus-2.47.0.linux-amd64
 
-Step 2: Set Up Python Exporter
+<h2>Step 2: Set Up Python Exporter <h2>
+    
 Install Prometheus Client Library:
 
 bash:
